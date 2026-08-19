@@ -1,5 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "1970-01-01T00:00:00Z",
-  "plugins": []
+  "updatedAt": "2026-08-19T18:33:16Z",
+  "plugins": [
+    {
+      "id": "deep_links",
+      "name": "Deep Links",
+      "version": "1.1.1",
+      "description": "Test deep links, app links, and universal links with variable templates.",
+      "category": "TESTING",
+      "icon": "🔗",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-deep_links-v1.1.1/plugin-deep_links-1.1.1.jar",
+      "sha256": "f615c7eb99703416ac25775a04b01c22b175b570596d6a9e7a21c9f1d6183644",
+      "size": 201273,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "Initial release with deep link testing, URL templates, and launch history.",
+      "publishedAt": "2026-08-19T18:32:08.712840054Z"
+    },
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.1.9",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-network-v1.1.9/plugin-network-1.1.9.jar",
+      "sha256": "e444b43da746a2539689093b444af24aec775496ea9c0c55f0c535666cc0cc58",
+      "size": 568657,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "Interceptor-only mode: network log capture and response mocking.",
+      "publishedAt": "2026-08-19T18:31:16.458831425Z"
+    }
+  ]
 }
