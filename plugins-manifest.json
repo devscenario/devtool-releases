@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T18:33:16Z",
+  "updatedAt": "2026-08-20T00:16:35Z",
   "plugins": [
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "version": "1.1.1",
+      "description": "WCAG 2.1 compliance scanner with visual overlay and score reporting.",
+      "category": "TESTING",
+      "icon": "♿",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-accessibility-v1.1.1/plugin-accessibility-1.1.1.jar",
+      "sha256": "b4972842d7b9584bb56972385ca1b96adf4ab8f2756b05ad89f922e24e5cec8f",
+      "size": 175676,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "Initial release with WCAG 2.1 scanning, visual overlay, compliance scoring, and scan history.",
+      "publishedAt": "2026-08-19T18:33:57.976355710Z"
+    },
     {
       "id": "deep_links",
       "name": "Deep Links",
