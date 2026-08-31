@@ -1,22 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T00:41:54Z",
+  "updatedAt": "2026-08-31T08:37:42Z",
   "plugins": [
-    {
-      "id": "network",
-      "name": "Network",
-      "version": "1.1.10",
-      "description": "Network logs and mock response tools via in-app interceptor.",
-      "category": "NETWORK",
-      "icon": "🌐",
-      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-network-v1.1.10/plugin-network-1.1.10.jar",
-      "sha256": "06bd14c2f21fc1a14c3824b6966c718306ae0fd4785465221fd27cae6cf60e60",
-      "size": 650257,
-      "minAppVersion": null,
-      "dependencies": [],
-      "releaseNotes": "Interceptor-only mode: network log capture and response mocking.",
-      "publishedAt": "2026-08-20T17:03:50.912016352Z"
-    },
     {
       "id": "accessibility",
       "name": "Accessibility",
