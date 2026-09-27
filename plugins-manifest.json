@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-26T04:00:42Z",
+  "updatedAt": "2026-09-27T04:13:15Z",
   "plugins": [
+    {
+      "id": "mcp",
+      "name": "MCP Server",
+      "version": "0.2.0",
+      "description": "Let AI agents (Claude Code, Cursor, …) inspect devices and write, run and triage E2E flows over MCP.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-mcp-v0.2.0/plugin-mcp-0.2.0.jar",
+      "sha256": "6fd8e48c384b802d5546add612905b054118c4bfafd5f71e6226475c6ba017ce",
+      "size": 782563,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "Initial release: devices, screen, flow validation, runs and reports over a token-protected local MCP endpoint.",
+      "publishedAt": "2026-09-26T21:48:39.233222698Z"
+    },
+    {
+      "id": "deep_links",
+      "name": "Deep Links",
+      "version": "1.2.1",
+      "description": "Test deep links, app links, and universal links with variable templates.",
+      "category": "TESTING",
+      "icon": "🔗",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-deep_links-v1.2.1/plugin-deep_links-1.2.1.jar",
+      "sha256": "eb4071c1ed0e98e93d86f4b898298898bffa228cb23eafaba6735ba47bfb5bd6",
+      "size": 246655,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "AI agents (MCP) can list, add, update, delete and launch deep links.",
+      "publishedAt": "2026-09-26T21:47:34.559899972Z"
+    },
     {
       "id": "mcp",
       "name": "MCP Server",
@@ -10,12 +40,12 @@
       "category": "INTEGRATIONS",
       "icon": "🤖",
       "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-mcp-v0.1.1/plugin-mcp-0.1.1.jar",
-      "sha256": "abecd3eca4041fa642e855bc09621cd699ecd871135bf590b61fc8c5538df68e",
-      "size": 422269,
+      "sha256": "74a0751e50cf61a61e42c37f64d0c323bbb7ca61c8a79bad631adca47030394b",
+      "size": 736054,
       "minAppVersion": null,
       "dependencies": [],
       "releaseNotes": "Initial release: devices, screen, flow validation, runs and reports over a token-protected local MCP endpoint.",
-      "publishedAt": "2026-09-25T14:57:15.276719170Z"
+      "publishedAt": "2026-09-26T20:42:58.618220520Z"
     },
     {
       "id": "network",
