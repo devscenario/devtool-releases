@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T04:13:15Z",
+  "updatedAt": "2026-09-28T04:14:43Z",
   "plugins": [
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.1",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-network-v1.3.1/plugin-network-1.3.1.jar",
+      "sha256": "d88d76b7ee7b127646130595de4a75338d236499c8d1a997ad3491d669d81e07",
+      "size": 744417,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "Mocks can match on request body; rules grouped by base URL and sorted by path. Needs the app release with request-body matching.",
+      "publishedAt": "2026-09-27T10:01:21.166297601Z"
+    },
+    {
+      "id": "mcp",
+      "name": "MCP Server",
+      "version": "0.2.1",
+      "description": "Let AI agents (Claude Code, Cursor, …) inspect devices and write, run and triage E2E flows over MCP.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-mcp-v0.2.1/plugin-mcp-0.2.1.jar",
+      "sha256": "48d9fdb78ab4a0c50e9f14e104331aa532259d59ffe10c7c5a7322a40de64a66",
+      "size": 782564,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "Initial release: devices, screen, flow validation, runs and reports over a token-protected local MCP endpoint.",
+      "publishedAt": "2026-09-27T10:00:40.713708755Z"
+    },
     {
       "id": "mcp",
       "name": "MCP Server",
