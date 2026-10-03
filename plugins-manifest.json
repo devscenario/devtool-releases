@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T07:30:06Z",
+  "updatedAt": "2026-10-03T09:38:33Z",
   "plugins": [
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "version": "1.1.3",
+      "description": "WCAG 2.1 compliance scanner with visual overlay and score reporting.",
+      "category": "TESTING",
+      "icon": "♿",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-accessibility-v1.1.3/plugin-accessibility-1.1.3.jar",
+      "sha256": "cc351f32401ae8564345206079da43e5f3c0836a270dd00ffd9751fe7e49e456",
+      "size": 175691,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "Initial release with WCAG 2.1 scanning, visual overlay, compliance scoring, and scan history.",
+      "publishedAt": "2026-10-03T09:33:00.405996183Z"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "version": "1.2.1",
+      "description": "Firebase App Distribution and Remote Config workbench.",
+      "category": "FIREBASE",
+      "icon": "🚀",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-firebase-v1.2.1/plugin-firebase-1.2.1.jar",
+      "sha256": "cebf48900bd21c1b340595184239766ee4075a0ec0e109fe52a90adac0bbf2fb",
+      "size": 767529,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "App Distribution releases, ADB install, and Remote Config browsing.",
+      "publishedAt": "2026-10-03T09:32:17.703188634Z"
+    },
     {
       "id": "mcp",
       "name": "MCP Server",
