@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T18:36:59Z",
+  "updatedAt": "2026-10-03T18:38:47Z",
   "plugins": [
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "version": "1.2.2",
+      "description": "Firebase App Distribution and Remote Config workbench.",
+      "category": "FIREBASE",
+      "icon": "🚀",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-firebase-v1.2.2/plugin-firebase-1.2.2.jar",
+      "sha256": "ad95c597d72c3c11e6fe0617f8afeab03a9fd3af4d868e6886d4b600bc5a21fd",
+      "size": 552403,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "App Distribution releases, ADB install, and Remote Config browsing.",
+      "publishedAt": "2026-10-03T18:38:02.320593197Z"
+    },
     {
       "id": "mcp",
       "name": "MCP Server",
