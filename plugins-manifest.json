@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T18:34:31Z",
+  "updatedAt": "2026-10-03T18:36:59Z",
   "plugins": [
+    {
+      "id": "mcp",
+      "name": "MCP Server",
+      "version": "0.2.8",
+      "description": "Let AI agents (Claude Code, Cursor, …) inspect devices and write, run and triage E2E flows over MCP.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-mcp-v0.2.8/plugin-mcp-0.2.8.jar",
+      "sha256": "e38a7aab767f23c032e7e224b2167b749a84954a5b145799b78f3aca9b76dd9e",
+      "size": 597471,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "Initial release: devices, screen, flow validation, runs and reports over a token-protected local MCP endpoint.",
+      "publishedAt": "2026-10-03T18:36:09.727446466Z"
+    },
     {
       "id": "deep_links",
       "name": "Deep Links",
