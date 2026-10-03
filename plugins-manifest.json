@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T04:17:11Z",
+  "updatedAt": "2026-10-03T07:30:06Z",
   "plugins": [
     {
       "id": "mcp",
@@ -61,21 +61,6 @@
       "dependencies": [],
       "releaseNotes": "Initial release: devices, screen, flow validation, runs and reports over a token-protected local MCP endpoint.",
       "publishedAt": "2026-10-02T18:49:46.970425827Z"
-    },
-    {
-      "id": "firebase",
-      "name": "Firebase",
-      "version": "1.1.1",
-      "description": "Firebase App Distribution and Remote Config workbench.",
-      "category": "FIREBASE",
-      "icon": "🚀",
-      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-firebase-v1.1.1/plugin-firebase-1.1.1.jar",
-      "sha256": "7bd7fbba100c9d3ae5084f3f0ade75aedf6ae37a4ed6edea2798bca682ac0ca0",
-      "size": 562049,
-      "minAppVersion": null,
-      "dependencies": [],
-      "releaseNotes": "App Distribution releases, ADB install, and Remote Config browsing.",
-      "publishedAt": "2026-10-02T18:48:23.452420784Z"
     },
     {
       "id": "deep_links",
