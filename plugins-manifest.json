@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T09:38:33Z",
+  "updatedAt": "2026-10-03T18:19:47Z",
   "plugins": [
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "version": "1.2.1",
+      "description": "WCAG 2.1 compliance scanner with visual overlay and score reporting.",
+      "category": "TESTING",
+      "icon": "♿",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-accessibility-v1.2.1/plugin-accessibility-1.2.1.jar",
+      "sha256": "0639feffc3c702e046681def5c7874453e5ead1cdbce5cb227ac949f182b84b4",
+      "size": 261614,
+      "minAppVersion": null,
+      "dependencies": [],
+      "releaseNotes": "Redesigned screen: issue list with screenshot overlay, fix and selector per issue, failed scans shown with the reason, and history with pipeline reports, filters and remove.",
+      "publishedAt": "2026-10-03T18:18:46.795631956Z"
+    },
     {
       "id": "accessibility",
       "name": "Accessibility",
