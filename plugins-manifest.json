@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T07:42:06Z",
+  "updatedAt": "2026-10-26T11:26:50Z",
   "plugins": [
+    {
+      "id": "deep_links",
+      "name": "Deep Links",
+      "version": "1.2.6",
+      "description": "Test deep links, app links, and universal links with variable templates.",
+      "category": "TESTING",
+      "icon": "🔗",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-deep_links-v1.2.6/plugin-deep_links-1.2.6.jar",
+      "sha256": "3505dfb8f7dc61b648c9e6b784c70487c27cf505f0171c85ded98f0ff9b86bab",
+      "size": 204004,
+      "minAppVersion": "0.9.4",
+      "dependencies": [],
+      "releaseNotes": "The platform switch uses the app's glass lens, which slides to the selected option.",
+      "publishedAt": "2026-10-26T11:19:03.635848531Z"
+    },
+    {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "version": "1.0.2",
+      "description": "Send scenario results to Zephyr Scale test cycles, from this computer and from CI.",
+      "category": "TESTING",
+      "icon": "🧪",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-zephyr-v1.0.2/plugin-zephyr-1.0.2.jar",
+      "sha256": "2b8e9753a5678513411e153e999d0cc26017a5e274731018e6d0d95d5e828438",
+      "size": 603076,
+      "minAppVersion": "0.9.4",
+      "dependencies": [],
+      "releaseNotes": "The switches use the app's glass lens, which slides to the selected option.",
+      "publishedAt": "2026-10-26T11:18:53.266529922Z"
+    },
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.8",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-network-v1.3.8/plugin-network-1.3.8.jar",
+      "sha256": "ced25ba7a160ec9833aacac1bd74f9decd0ee5e8eb44a7288c30b1624929f538",
+      "size": 965578,
+      "minAppVersion": "0.9.4",
+      "dependencies": [],
+      "releaseNotes": "The view and mock switches use the app's glass lens, which slides to the selected option.",
+      "publishedAt": "2026-10-26T11:18:23.057105113Z"
+    },
     {
       "id": "zephyr",
       "name": "Zephyr",
