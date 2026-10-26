@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T04:59:24Z",
+  "updatedAt": "2026-10-26T07:42:06Z",
   "plugins": [
+    {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "version": "1.0.1",
+      "description": "Send scenario results to Zephyr Scale test cycles, from this computer and from CI.",
+      "category": "TESTING",
+      "icon": "🧪",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-zephyr-v1.0.1/plugin-zephyr-1.0.1.jar",
+      "sha256": "941b7bd65d4eb0be5ddbaf96e0492e9fd5a6e167d84930f970850247e4252949",
+      "size": 603152,
+      "minAppVersion": "0.9.3",
+      "dependencies": [],
+      "releaseNotes": "Initial release: connection setup, cycle and status rules, automatic sending after runs and a history of sends.",
+      "publishedAt": "2026-10-26T07:35:40.411032167Z"
+    },
     {
       "id": "firebase",
       "name": "Firebase",
